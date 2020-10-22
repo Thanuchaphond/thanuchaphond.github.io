@@ -1,0 +1,31 @@
+.overall {
+    width: 70%;
+    padding: 1em;
+}
+
+.header {
+    background: lightgrey;
+    padding: 1em;
+    border: 1px solid black;
+    font-size: 1em;
+    text-align: right;
+}
+
+.content {
+    background: white;
+    padding-left: 1.125em;
+    padding-right: 1.125em;
+    border: 1px solid black;
+    font-size: 1.125em;
+}
+
+.profile {
+    float: left;
+    width: 15%;
+    padding: 1.125em;
+}
+
+.profile img {
+    width: 100%;
+
+}
