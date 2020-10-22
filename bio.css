@@ -22,7 +22,8 @@
 .profile {
     float: left;
     width: 15%;
-    padding: 1.125em;
+    padding-top: 1.125em;
+    padding-right: 1.125em;
 }
 
 .profile img {
