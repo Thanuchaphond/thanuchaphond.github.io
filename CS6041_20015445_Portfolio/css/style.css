@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'sofia-pro', 'Open Sans', sans-serif;
+    line-height: 1.75rem;
+    font-weight: 300;
+    color: #222222;
+
+}
+
+.featurette-caption ul {
+    list-style-type: none;
+}
+
+.featurette-caption ul li:before {
+
+    content: "\2713";
+    font-weight: 400;
+    color: #3488a1;
+    padding-right: 10px;
+    display: inline-block;
+    margin-left: -40px;
+    min-width: 40px;
+    text-align: right;
+    box-sizing: border-box;
+    white-space: pre;
+
+}
+
+.topic {
+    color: #ed834a;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1em;
+
+}
+
+.desc {
+    text-align: center;
+    font-weight: 300;
+    /*    color: #5A5A5A;*/
+}
+
+.content-media {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-primary {
+    background: #a3802e;
+    border: 2px solid #a3802e;
+    max-width: 170px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.btn-primary:hover {
+    background: #a3802ede;
+}
+
+.btn-link {
+    padding-top: 0;
+    border: none;
+    background: none;
+}
+
+.btn-link:hover {
+    padding-top: 0;
+    border: none;
+    background: none;
+}
+
+/* NAVIGATION BAR
+------------------------- */
+.navbar-nav > li {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-weight: 400;
+}
+
+/*BANNER 
+------------------------- */
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    height: 30rem;
+    background: url(../images/banner-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    color: black;
+}
+
+.jumbotron .container {
+    max-width: 60rem;
+    z-index: 10;
+}
+
+.jumbotron > img {
+    margin-top: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 30rem;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -.05rem;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio {
+    padding-bottom: 3rem;
+}
+
+.portfolio-caption {
+    padding: 0rem 0rem 1.25rem 0rem;
+}
+
+.assignments-dim {
+    background: #f7f7f7;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.assignments-comments {
+    background: #c5d5d8;
+    ;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.assignments {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.assignments-full-heading {
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -.05rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#more {
+    display: none;
+}
+
+/* MODULES
+------------------------- */
+.modules-heading {
+    font-weight: 400;
+    letter-spacing: -.05rem;
+    line-height: 1.5;
+    padding: 0rem 0px 1.25rem 0px;
+    text-align: center;
+    color: #5A5A5A;
+}
+
+.modules .modules-box {
+    position: relative;
+    background-color: #fff;
+    box-shadow: #dcd8d8 0px 1px 5px 0px;
+    margin-bottom: 2em;
+    display: inline-block;
+}
+
+.modules .modules-box figure {
+    margin: 0px;
+}
+
+.modules .modules-box figure img {
+    width: 100%;
+}
+
+.modules .modules-box .text {
+    position: absolute;
+    /*    z-index: 999;*/
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    text-align: justify-all;
+    width: 80%;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.modules .modules-box .text p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.modules .modules-box .text img {
+    margin-top: 15%;
+    margin-left: 25%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+
+.modules .modules-box h3 {
+    font-size: 2rem;
+    line-height: 36px;
+    font-weight: 600;
+    padding: 20px;
+    color: #0d0e0a;
+}
+
+.modules .modules-box p {
+    font-size: 1.125rem;
+    line-height: 30px;
+    padding: 20px;
+    text-align: right;
+    color: #0d0e0a;
+}
+
+/* ABOUT 
+------------------------- */
+.about {
+
+    background: #3b3b3b;
+    background: url(../images/about-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2.25rem 1rem 4rem 1rem;
+}
+
+.about .about-box {
+    text-align: center;
+}
+
+
+.about-box .titlepage {
+    text-align: right;
+}
+
+.about-heading {
+    font-weight: 400;
+    letter-spacing: -.05rem;
+    color: #5A5A5A;
+    line-height: 1.5;
+    padding: 1.25rem 0px 1.25rem 0px;
+}
+
+.about-box .titlepage span {
+    /*    font-size: 1.25rem;*/
+    line-height: 1.5;
+    display: block;
+}
+
+.overlay-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overlay-middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.assignments-image .container {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+.assignments-image:hover .overlay-image {
+    opacity: 0.2;
+}
+
+.assignments-image:hover .overlay-middle {
+    opacity: 1;
+}
+
+.assignments-image:hover .overlay-text {
+    opacity: 0.8;
+}
+
+.overlay-text {
+    background-color: #2b6e82;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 0.5rem;
+    font-weight: 300;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    .about-heading {
+        margin-top: 1.25rem;
+    }
+
+    .modules-heading {
+        margin-top: 1.25rem;
+    }
+
+    .modules .modules-box .text p {
+        font-size: 1.75rem;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 770px) {
+    .desc {
+        padding: 0em 3em 0em 3em;
+    }
+
+    .content-media {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .portfolio-caption p {
+        font-size: 1.25rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 3rem;
+    }
+
+    .assignments-full-heading {
+        font-size: 3rem;
+    }
+
+    .featurette-heading {
+        font-size: 3rem;
+    }
+
+    .about-heading {
+        font-size: 3rem;
+    }
+
+    .modules-heading {
+        font-size: 3rem;
+    }
+
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .assignments-dim {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .assignments-comments {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .assignments {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    .about {
+
+        background: url(../images/about-bg-small.png);
+
+    }
+
+    .modules .modules-box .text p {
+        font-size: 1.25rem;
+    }
+}
+
+
+
+/*Extra Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .modules .modules-box .text p {
+        font-size: 1.25rem;
+    }
+
+    .btn-primary {
+        max-width: 126px;
+        margin-right: 2px;
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .assignments-full-heading {
+        font-size: 2rem;
+    }
+
+    .featurette-heading {
+        font-size: 2rem;
+    }
+
+    .featurette-caption p {
+        font-size: 1rem;
+    }
+
+    .about-heading {
+        font-size: 2rem;
+    }
+
+    .modules-heading {
+        font-size: 2rem;
+    }
+
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+
+    .jumbotron p {
+        font-size: 1.125rem;
+    }
+
+    .assignments-dim {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .assignments-comments {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .assignments {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+
+}
