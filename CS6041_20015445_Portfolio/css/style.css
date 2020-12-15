@@ -8,14 +8,6 @@ body {
 
 }
 
-.topic {
-    color: #ed834a;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-top: 1em;
-
-}
-
 .desc {
     text-align: center;
     font-weight: 300;
@@ -257,6 +249,14 @@ body {
 
 .process-caption p {
     color: #5a5a5a;
+}
+
+.topic {
+    color: #ed834a;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1em;
+
 }
 
 #more {
