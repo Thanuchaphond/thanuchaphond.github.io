@@ -22,10 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <link href="https://use.typekit.net/ese2uxj.css" rel="stylesheet">
-
 </head>
 
-<body>
+<body class="preload">
     <header>
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
             <a class="navbar-brand" href="./index.html">My Portfolio</a>
@@ -55,7 +54,7 @@
                         <a class="nav-link" href="./index.html#about">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html#gallery">Gallery</a>
+                        <a class="nav-link" href="./CS6041-photo.html#gallery">Gallery</a>
                     </li>
                 </ul>
 
@@ -64,215 +63,205 @@
     </header>
 
     <main role="main">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="bd-placeholder-img mx-auto" src="images/carousel-main.jpg" alt="img" />
+        <div class="fadeIn">
+            <!--        <div class="animate-bottom">-->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="bd-placeholder-img mx-auto" src="images/carousel-main.jpg" alt="img" />
+                        <div class="container">
+                            <div class="carousel-caption text-center">
+                                <h3 style="color: white">Hello I'm</h3>
+                                <h1>Thanuchaphond Aiemsaard</h1>
+                                <p></p>
+                                <p><a class="btn btn-lg btn-primary" href="./index.html#modules" role="button">Portfolio</a>
+                                    <a class="btn btn-lg btn-primary" href="./index.html#about" role="button">About me</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="bd-placeholder-img mx-auto" src="images/carousel-photo.jpg" alt="img" />
+                        <div class="container">
+                            <div class="carousel-caption text-right">
+                                <h1>Photograph</h1>
+                                <p style="text-transform: uppercase">Photo Editing</p>
+                                <p><a class="btn btn-lg btn-primary" href="./CS6041-photo.html#assignments-photo" role="button">View work</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="bd-placeholder-img mx-auto" src="images/carousel-audio.jpg" alt="img" />
+                        <div class="container">
+                            <div class="carousel-caption  text-right">
+                                <h1>The sounds story</h1>
+                                <p style="text-transform: uppercase">Audio Editing</p>
+                                <p><a class="btn btn-lg btn-primary" href="./CS6041-sounds.html#assignments-audio" role="button">View work</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="bd-placeholder-img mx-auto" src="images/carousel-uxui.jpg" alt="img" />
+                        <div class="container">
+                            <div class="carousel-caption text-right">
+                                <h1>The skin type assessment kiosk</h1>
+                                <p style="text-transform: uppercase">User-centered Design</p>
+                                <p><a class="btn btn-lg btn-primary" href="./CS6021.html#assignments-uxui" role="button">View work</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="bd-placeholder-img mx-auto" src="images/carousel-pc.jpg" alt="img" />
+                        <div class="container">
+                            <div class="carousel-caption text-right">
+                                <h1>The interactive plant</h1>
+                                <p style="text-transform: uppercase">Physical Computing</p>
+                                <p><a class="btn btn-lg btn-primary" href="./CS6351.html#assignments-physical-computing" role="button">View work</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="container portfolio">
+
+                <div id="modules" class="modules">
                     <div class="container">
-                        <div class="carousel-caption text-center">
-                            <h3 style="color: white">Hello I'm</h3>
-                            <h1>Thanuchaphond Aiemsaard</h1>
-                            <p></p>
-                            <p><a class="btn btn-lg btn-primary" href="./index.html#modules" role="button">Portfolio</a>
-                                <a class="btn btn-lg btn-primary" href="./index.html#about" role="button">About me</a>
-                            </p>
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="portfolio-caption">
+                                    <h2 class="modules-heading">Portfolio</h2>
+                                    <span>
+                                        <p class="text-center desc">Each section illustrate my works which are a part of Master degree of Interaction and Experience Design at University of Limerick.</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                <div class="modules-box">
+                                    <figure><a href="./CS6041-photo.html"><img class="rounded" src="images/blue.jpg" alt="img" />
+                                            <div class="text">
+                                                <img src="icon/photo-icon.png" alt="img" />
+                                                <p><strong>Photo Editing</strong></p>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                <div class="modules-box">
+                                    <figure><a href="./CS6021.html"><img class="rounded" src="images/yellow.jpg" alt="img" />
+                                            <div class="text">
+
+                                                <img src="icon/sketch-icon.png" alt="img" />
+                                                <p><strong>User-centered Design</strong></p>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                <div class="modules-box">
+                                    <figure><a href="./CS6041-sounds.html" title=""><img class="rounded" src="images/purple.jpg" alt="img" />
+                                            <div class="text" style="text-align: center;">
+
+                                                <img src="icon/sound-icon.png" alt="img" />
+                                                <p><strong>Audio Editing</strong></p>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                <div class="modules-box">
+                                    <figure><a href="./CS6351.html" title=""><img class="rounded" src="images/green.jpg" alt="img" />
+                                            <div class="text" style="text-align: center;">
+                                                <img src="icon/arduino-icon.png" alt="img" />
+                                                <p style="text-align: center; padding: 0; margin: 0; color: white;"><strong>Physical Computing</strong></p>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="bd-placeholder-img mx-auto" src="images/carousel-photo.jpg" alt="img" />
-                    <div class="container">
-                        <div class="carousel-caption text-right">
-                            <h1>Photograph</h1>
-                            <p style="text-transform: uppercase">Photo Editing</p>
-                            <p><a class="btn btn-lg btn-primary" href="./CS6041-photo.html#assignments-photo" role="button">View work</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <!--
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-                        <rect width="100%" height="100%" fill="#777" />
-                        <img class="bd-placeholder-img" width="100%" height="100%" src="images/Frame3.jpg" alt="img" />
-                    </svg>
--->
-                    <img class="bd-placeholder-img mx-auto" src="images/carousel-audio.jpg" alt="img" />
-                    <div class="container">
-                        <div class="carousel-caption  text-right">
-                            <h1>The sounds story</h1>
-                            <p style="text-transform: uppercase">Audio Editing</p>
-                            <p><a class="btn btn-lg btn-primary" href="./CS6041-sounds.html#assignments-audio" role="button">View work</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="bd-placeholder-img mx-auto" src="images/carousel-uxui.jpg" alt="img" />
-                    <div class="container">
-                        <div class="carousel-caption text-right">
-                            <h1>The skin type assessment kiosk</h1>
-                            <p style="text-transform: uppercase">User-centered Design</p>
-                            <p><a class="btn btn-lg btn-primary" href="./CS6021.html#assignments-uxui" role="button">View work</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="bd-placeholder-img mx-auto" src="images/carousel-pc.jpg" alt="img" />
-                    <div class="container">
-                        <div class="carousel-caption text-right">
-                            <h1>The interactive plant</h1>
-                            <p style="text-transform: uppercase">Physical Computing</p>
-                            <p><a class="btn btn-lg btn-primary" href="./CS6351.html#assignments-physical-computing" role="button">View work</a></p>
-                        </div>
-                    </div>
-                </div>
+
 
             </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+            <!-- /.container -->
 
-
-        <!-- Marketing messaging and featurettes
-  ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
-
-        <div class="container portfolio">
-
-            <div id="modules" class="modules">
+            <div id="about" class="about">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 ">
-                            <div class="portfolio-caption">
-                                <h2 class="modules-heading">Portfolio</h2>
-                                <span>
-                                    <p class="text-center desc">Each section illustrate my works which are a part of Master degree of Interaction and Experience Design at University of Limerick.</p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <div class="modules-box">
-                                <figure><a href="./CS6041-photo.html"><img class="rounded" src="images/blue.jpg" alt="img" />
-                                        <div class="text">
-                                            <img src="icon/photo-icon.png" alt="img" />
-                                            <p><strong>Photo Editing</strong></p>
-                                        </div>
-                                    </a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <div class="modules-box">
-                                <figure><a href="./CS6021.html"><img class="rounded" src="images/yellow.jpg" alt="img" />
-                                        <div class="text">
+                        <div class="col-xl-6 col-lg-5 col-md-5 col-sm-12">
 
-                                            <img src="icon/sketch-icon.png" alt="img" />
-                                            <p><strong>User-centered Design</strong></p>
-                                        </div>
-                                    </a>
-                                </figure>
-                            </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <div class="modules-box">
-                                <figure><a href="./CS6041-sounds.html" title=""><img class="rounded" src="images/purple.jpg" alt="img" />
-                                        <div class="text" style="text-align: center;">
+                        <div class="col-xl-6 col-lg-7 col-md-7 col-sm-12">
+                            <div class="about-box">
+                                <div class="titlepage">
+                                    <h2 class="about-heading">About Me</h2>
 
-                                            <img src="icon/sound-icon.png" alt="img" />
-                                            <p><strong>Audio Editing</strong></p>
-                                        </div>
-                                    </a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <div class="modules-box">
-                                <figure><a href="./CS6351.html" title=""><img class="rounded" src="images/green.jpg" alt="img" />
-                                        <div class="text" style="text-align: center;">
-                                            <img src="icon/arduino-icon.png" alt="img" />
-                                            <p style="text-align: center; padding: 0; margin: 0; color: white;"><strong>Physical Computing</strong></p>
-                                        </div>
-                                    </a>
-                                </figure>
+                                    <span>
+                                        <p>
+                                            Thanuchaphond Aiemsaard, also called Kade. I was a Product Manager in Thailand who is particularly interested in Human centric design for digital products.
+                                        </p>
+                                        <p>
+                                            I have spent around 10 years of my work in the software development field. I had been a software developer for 6 years and then I turned myself to work in the IT management field.
+                                        </p>
+                                        <p>
+                                            I have learnt from my experience that the key success of any products is, how it serves the “real” customer needs. And then, they would automatically be willing to use it. So that I decided to do a <a href="http://ixuxdesign.csis.ul.ie/">master degree of Interaction of Experience Design</a> at
+                                            <a href="https://www.ul.ie/">University of Limerick
+                                            </a>.
+                                        </p>
+                                        <p>
+                                            My ambition is trying to use these knowledge from this programme to uplift the health technology product which is my particular area of interest, in order to provide a better health quality to people.
+                                        </p>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- end about -->
+
+            <hr class="featurette-divider">
 
 
+            <!-- FOOTER -->
+            <footer class="container">
+                <p class="float-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>
         </div>
-        <!-- /.container -->
-
-        <div id="about" class="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-5 col-md-5 col-sm-12">
-
-                    </div>
-                    <div class="col-xl-6 col-lg-7 col-md-7 col-sm-12">
-                        <div class="about-box">
-                            <div class="titlepage">
-                                <h2 class="about-heading">About Me</h2>
-
-                                <span>
-                                    <p>
-                                        Thanuchaphond Aiemsaard, also called Kade. I was a Product Manager in Thailand who is particularly interested in Human centric design for digital products.
-                                    </p>
-                                    <p>
-                                        I have spent around 10 years of my work in the software development field. I had been a software developer for 6 years and then I turned myself to work in the IT management field.
-                                    </p>
-                                    <p>
-                                        I have learnt from my experience that the key success of any products is, how it serves the “real” customer needs. And then, they would automatically be willing to use it. So that I decided to do a <a href="http://ixuxdesign.csis.ul.ie/">master degree of Interaction of Experience Design</a> at
-                                        <a href="https://www.ul.ie/">University of Limerick
-                                        </a>.
-                                    </p>
-                                    <p>
-                                        My ambition is trying to use these knowledge from this programme to uplift the health technology product which is my particular area of interest, in order to provide a better health quality to people.
-                                    </p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end about -->
-
-        <hr class="featurette-divider">
-
-
-        <!-- FOOTER -->
-        <footer class="container">
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-        </footer>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <!--
-    <script>
-        window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
-
-    </script>
--->
-
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(window).load(function() {
+            $("body").removeClass("preload");
+        });
+    </script>
 
 </body></html>
